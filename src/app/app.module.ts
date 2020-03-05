@@ -13,7 +13,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component'; //NgM
     HeroDetailComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     FormsModule,
     AppRoutingModule
   ],
